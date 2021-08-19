@@ -1,0 +1,482 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Scrolling nav */
+
+.scrolling-active {
+    background-color: #361D47;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+    transition: ease .2s;
+}
+
+.scrolling-active #navbar ul li a {
+    color: #361D47;
+}
+
+.burger-icon {
+    color: #FE721C;
+}
+
+.navbar-light .navbar-toggler {
+    color: #FE721C;
+    border-color: #FE721C;
+}
+
+
+/* end Scrolling */
+
+
+/* header section */
+
+header #logo img .logo {
+    background-image: url("img/logo.webp");
+}
+
+header #navbar ul li {
+    margin: auto 15px;
+    color: #361D47;
+}
+
+header #navbar ul li a {
+    color: #361D47;
+}
+
+header #navbar ul li a:hover {
+    color: #FE721C;
+}
+
+header #navbar ul .active a {
+    color: #FE721C;
+}
+
+.jumbotron button {
+    border-radius: 50px;
+}
+
+.jumbotron p {
+    font-size: 0.9375em;
+}
+
+
+/* end header section */
+
+
+/* main section */
+
+#items-info span {
+    font-size: 0.8125em;
+    color: #7186A0;
+}
+
+#items-info p {
+    color: #132B50;
+    margin-top: 10px;
+}
+
+#class-option img {
+    border-radius: 15px;
+}
+
+#class-option p,
+#class-option span,
+#class-option button {
+    font-size: 1em;
+}
+
+#class-option i,
+#classInformationsContent #about i,
+#pricing i {
+    background-color: #FCBA1C;
+    border-radius: 100%;
+    height: fit-content;
+    margin-right: 10px;
+    font-size: 0.6250em;
+    padding: 2px;
+}
+
+#class-option button {
+    border-radius: 20px;
+}
+
+#class-informations ul li a {
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+#classInformationsContent #about .img-trainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+#classInformationsContent #review .img-review {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+#class-informations ul li .active {
+    background-color: #361D47;
+    color: #FFF;
+}
+
+#class-informations ul li .nav-link:not(.active) {
+    background-color: #EAEAEA;
+    color: #361D47;
+}
+
+#class-informations .nav-tabs {
+    border-bottom: unset;
+    height: 56px;
+}
+
+#class-informations #classInformationsContent h2 {
+    font-size: 1.1250em;
+}
+
+#class-informations #classInformationsContent .tab-pane p,
+#class-informations #classInformationsContent ul li {
+    color: #7186A0;
+    font-size: 0.9em;
+}
+
+#class-informations #classInformationsContent ul li {
+    cursor: pointer;
+}
+
+#class-informations .class-information-content {
+    color: #7186A0;
+    font-size: 0.9em;
+    padding: 1.5em 1.5em 1.5em 3em;
+    background-color: #F6F6F6;
+}
+
+#class-informations #classInformationsContent ul li:hover,
+#class-informations #classInformationsContent ul li:focus,
+#class-informations ul .active {
+    background-color: unset;
+    border-color: unset;
+}
+
+#count .btn-batch {
+    border-radius: 50px;
+}
+
+#faq .btn-whatsapp {
+    border-radius: 50px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#class-informations .box-trainer,
+#class-informations .box-member {
+    background-color: #F6F6F6;
+    padding: 0.75em;
+    margin-top: 1.4em;
+    border-radius: 10px;
+}
+
+#class-informations .box-trainer {
+    text-align: center;
+}
+
+#class-informations #classInformationsContent .box-trainer p {
+    color: #132B50;
+    margin-bottom: 0;
+}
+
+#class-informations #classInformationsContent .box-trainer small,
+#class-informations #classInformationsContent .box-member small {
+    color: #7186A0;
+    font-size: 0.75em;
+}
+
+#class-informations #classInformationsContent .box-trainer button,
+#class-informations #classInformationsContent .box-member button {
+    border-radius: 3em;
+    font-size: 0.9em;
+    margin-top: 1.8em;
+    display: block;
+    width: 100%;
+}
+
+#class-informations #classInformationsContent .box-trainer a,
+#class-informations #classInformationsContent .box-member a {
+    text-decoration: none;
+}
+
+#class-informations #classInformationsContent #review .box-member p {
+    color: #361D47;
+    margin-bottom: 0;
+}
+
+#class-informations #classInformationsContent #review .stars i {
+    color: #FFC700;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 760px) {
+    .container .nav-tabs {
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+}
+
+
+/* Card Price */
+
+.pricing .card {
+    border: 4px solid #361D47;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    transition: all 0.2s;
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); */
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 2rem;
+    margin: 0;
+    color: #FE721C;
+}
+
+.pricing .card-disc {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+.fa-li-mt {
+    margin-top: -4px;
+}
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 320px) {
+    .pricing .card-title {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* faq */
+
+.content {
+    max-width: 630px;
+}
+
+.accordion__item {
+    background: #ececec;
+    border-radius: 10px;
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); */
+}
+
+.accordion__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.accordion__header {
+    padding: 15px;
+    padding-right: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #361D47;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion__header::after {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url("https://cdn.statically.io/gist/koptyaisky/33f5da3d9e6b6cacdf5a353ad033c2ea/raw/c8468a17e0141ee82a2571deea1f76162abb47b6/arrow-down-blue.svg") no-repeat center;
+    background-size: contain;
+    transition: all .4s ease;
+}
+
+.accordion__body {
+    padding: 0 40px 20px 20px;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #5f6c7b;
+    line-height: 1.5;
+    display: none;
+}
+
+.open-accordion .accordion__body {
+    display: block;
+}
+
+.open-accordion .accordion__header::after {
+    transform: rotate(-180deg);
+}
+
+
+/* end main section */
+
+
+/* Footer  */
+
+footer #sitemap ul {
+    padding-left: 0;
+}
+
+footer #sitemap ul li {
+    margin: 15px auto;
+    color: #FFF;
+    list-style-type: none;
+}
+
+footer #sitemap ul li a {
+    color: #FFF;
+}
+
+footer #sitemap ul li a:hover {
+    color: #FCBA1C;
+    text-decoration: none;
+}
+
+footer #sitemap ul .active a {
+    color: #FCBA1C;
+}
+
+footer #copyright strong {
+    color: #FCBA1C;
+}
+
+footer .footer-title {
+    color: #FCBA1C;
+}
+
+footer .footer-logo {
+    width: 50%;
+}
+
+
+/* Icon socmed */
+
+.fa-socmed {
+    padding: 8px;
+    font-size: 30px;
+    width: 2.3rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.fa-socmed:hover {
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #da2771;
+    color: white;
+}
+
+.fa-youtube-play {
+    background: #cb2027;
+    color: white;
+}
+
+
+/* Hover Socmed */
+
+.fa-facebook:hover {
+    background: #FFF;
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    background: #FFF;
+    color: #55ACEE;
+}
+
+.fa-linkedin:hover {
+    background: #FFF;
+    color: #007bb5;
+}
+
+.fa-instagram:hover {
+    background: #FFF;
+    color: #da2771;
+}
+
+.fa-youtube-play:hover {
+    background: #FFF;
+    color: #cb2027;
+}
+
+
+/* end Footer */
